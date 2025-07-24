@@ -18,7 +18,6 @@ function App() {
 
         {/* Chat Body */}
         <div className="chat-body">
-          {/* Bot message */}
           <div className="message bot-message">
             <ChatbotIcon />
             <p className="message-text">
