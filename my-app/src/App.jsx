@@ -73,6 +73,19 @@ function App() {
 
   return (
     <div className={`container ${showChatbot ? "show-chatbot" : ""}`}>
+      <h1 className="bot-welcome-text">
+        <img
+          src="/bot-logo.png"
+          alt="Chatbot Logo"
+          style={{
+            height: "64px",
+            verticalAlign: "middle",
+            marginRight: "8px",
+          }}
+        />
+        TalkMate: Your Smart Virtual Assistant  
+      </h1>
+
       <button
         onClick={() => setShowChatbot((prev) => !prev)}
         id="chatbot-toggler"
