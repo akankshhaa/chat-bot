@@ -39,7 +39,6 @@ body {
   opacity: 0.5;
 }
 
-/* Chatbot Button */
 #chatbot-toggler {
   position: fixed;
   bottom: 3vh;
@@ -65,7 +64,6 @@ body {
   transform: rotate(180deg);
 }
 
-/* Chatbot Box */
 .chatbot-popup {
   position: fixed;
   bottom: 12vh;
@@ -86,7 +84,6 @@ body {
   pointer-events: auto;
 }
 
-/* Header */
 .chat-header {
   background: #6d4fc2;
   color: #fff;
@@ -131,7 +128,6 @@ body {
   background: #593bab;
 }
 
-/* Chat Body */
 .chat-body {
   flex: 1;
   padding: 1rem;
@@ -144,7 +140,6 @@ body {
   scrollbar-color: #ccc transparent;
 }
 
-/* Messages */
 .message {
   display: flex;
   align-items: flex-start;
@@ -182,7 +177,6 @@ body {
   border-radius: 1rem 1rem 0.25rem 1rem;
 }
 
-/* Chat Footer */
 .chat-footer {
   padding: 0.75rem 1rem;
   background: #fff;
